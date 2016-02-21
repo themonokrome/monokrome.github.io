@@ -80,8 +80,7 @@
 				// Reset scroll position on hide.
 					resetScroll: false,
 
-				// Reset forms on hide.
-					resetForms: false,
+			
 
 				// Side of viewport the panel will appear.
 					side: null,
@@ -125,11 +124,7 @@
 								if (config.resetScroll)
 									$this.scrollTop(0);
 
-							// Reset forms.
-								if (config.resetForms)
-									$this.find('form').each(function() {
-										this.reset();
-									});
+							
 
 						}, config.delay);
 
